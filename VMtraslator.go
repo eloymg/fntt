@@ -2,7 +2,7 @@ package main
 
 import (
 
-	"local/VMtranslator/reader"
+	"github.com/eloymg/fntt/reader"
 	"os"
 
 )
