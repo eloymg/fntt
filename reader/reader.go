@@ -2,7 +2,6 @@ package reader
 
 import (
 	"bufio"
-	"local/VMtranslator/parser"
 	"log"
 	"os"
 	"fmt"
@@ -44,7 +43,7 @@ func (r *Reader) Read(p string) (e error) {
 		return
 	}
 
-	p := parser.NewParser()
+	p := NewParser()
 
 
 		l, err := p.Read(string(line))
